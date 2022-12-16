@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* added the semantic header tag to the entire header portion */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* added the nav tag to the css */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,7 +36,7 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-
+/* applies styles to the individual list items in the header */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -74,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* this is the beginning of the sidebar styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -187,8 +188,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* updated the tag to the semantic footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
